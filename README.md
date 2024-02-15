@@ -45,6 +45,28 @@ User information is added, updated, listed and saved in the system's database.
 
 <img width="1680" alt="Capture d’écran 2024-02-08 à 20 41 31" src="https://github.com/OussamaAbdelfattah/Hotel-App-c-windows-forms/assets/160117292/3e16d9bc-0585-4065-b2c4-ffcfd9f8a83e">
 
+**Staff Login**
+
+Login to the system by verifying the staff user information. I'll provide you a working username and password to use.
+
+ * User Name: oussama
+ * Password: 000
+
+<img width="740" alt="Capture d’écran 2024-02-15 à 11 33 20" src="https://github.com/OussamaAbdelfattah/Hotel-App-c-windows-forms/assets/160117292/69c7eb7d-f4fd-40e3-836e-88c52b9d8df2">
+
+
+
+https://github.com/OussamaAbdelfattah/Hotel-App-c-windows-forms/assets/160117292/1b02fcb5-551f-4c2a-abba-d24579aa5808
+
+
+
+
+https://github.com/OussamaAbdelfattah/Hotel-App-c-windows-forms/assets/160117292/69456234-343e-40ba-a9d2-5718391a44bc
+
+
+
+
+
 **Technologies 💻**
 
  * C#
