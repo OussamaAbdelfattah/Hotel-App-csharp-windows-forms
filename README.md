@@ -1,4 +1,4 @@
-# Hotel-App-c-windows-forms
+# Hotel-App-c#-windows-forms
 **About 🥢**
 
 Hotel Automation enables the reception desk to manage the room check-in and check-out processes.
