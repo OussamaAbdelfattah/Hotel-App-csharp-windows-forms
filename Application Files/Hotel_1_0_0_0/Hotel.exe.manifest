@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Hotel.exe" version="1.0.0.0" publicKeyToken="9eba6f06353e92dc" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Hotel" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Hotel.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Options de manifeste UAC
+          Pour changer le niveau du contrôle de compte d'utilisateur Windows, remplacez le
+          nœud requestedExecutionLevel par l'une des propositions suivantes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Pour utiliser la virtualisation des fichiers et du Registre afin d'assurer
+         une compatibilité ascendante, supprimez le nœud requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Hotel.exe" size="2757104">
+      <assemblyIdentity name="Hotel" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>X4PwC2SB6iu9eJ+h11Ut22yjMMqj0spG/BFf5o2vONA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Microsoft.mshtml.dll" size="8032648">
+      <assemblyIdentity name="Microsoft.mshtml" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tgMNMgyI1wYExBjyAq/P48KMM1se7A/lMwnx1Y9gxT4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Spire.Pdf.dll" size="20158208">
+      <assemblyIdentity name="Spire.Pdf" version="8.10.2.0" publicKeyToken="663F351905198CB3" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>bT8+eNUXRSzps+I+mGe4K6P4DABbsQTGHnxpIDifWKE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Spire.PdfViewer.Asp.dll" size="292608">
+      <assemblyIdentity name="Spire.PdfViewer.Asp" version="7.10.3.0" publicKeyToken="663F351905198CB3" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>EMwP/d3Z2IAixlh6fOnvd2Hft8tPqS13+ohITRdS6dk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Spire.PdfViewer.Forms.dll" size="206592">
+      <assemblyIdentity name="Spire.PdfViewer.Forms" version="7.10.3.0" publicKeyToken="663F351905198CB3" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Ystu2BeqwW7aHz3+tZa3iE9nBxeozozgOGHnUBg9Uf4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Gestion_Hotel.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jd3HCQcoKqJZd7OOoGd4oWsTWiS/pucD9dR239a0fQM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Gestion_Hotel_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nVsZtqXRkOOCwJNH9R8wKQvGA/8VUFM2YxYMGzbw7gs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Hotel.exe.config" size="537">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Aley8uS4QCif6XLu8SOAUzW7QkcEmFoDzRhaVWMWGls=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=OUSSAMAABDE2B61\oussama" issuerKeyHash="95a4a1fc4e9460f4b4b6bdcd4129baa9a15ef803" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Rsq70OQkU6nWbd9d59vQpsv3PZdAklEDV+GzS8YWq7g=</DigestValue></Reference></SignedInfo><SignatureValue>WFaPKDkZg5JdL85TTNSj8g2+En7Aj/bIeJLIVKZaQhjSawkOK/0MAoVNNujU9LlLQdntlpQ/iHbAJ4Xe6lGhi/s8eBlMEsoff1HtGo4MMHvOl/1glldHdnf6zd1tUit9RTRzFokfjbH3LQyIwfoZ56+xIQxX492S3Rr3Ej06CyU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rAYSu1OP3vlbjIYKmMBlt3nXZfwJcRdC1cwtellDlg6fi/Lec4wQRtJYJexIrlUZqNy0i3MOCrHrRCE5xNmL1Egkt8v8jx4MIgh7/QJYm1U3WscaGh39YoWMtvshi0zGNI9sLpBThqslN6fcPZItwULwSnFtr1y6+R4u+ka/SOU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b8ab16c64bb3e15703519240973df7cba6d0dbe75ddf6dd6a95324e4d0bbca46" Description="" Url=""><as:assemblyIdentity name="Hotel.exe" version="1.0.0.0" publicKeyToken="9eba6f06353e92dc" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=OUSSAMAABDE2B61\oussama</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>UcdB2ZAOhul5E1KZ4153Lhe/Fp/EBEYFEUJZ7qM7MMs=</DigestValue></Reference></SignedInfo><SignatureValue>IdXxVjRWtXLDDFYiKjXwGhGYSI7AmclJtVX+t6cdGOwa2TEhL1pm2kTtvyBmNC42dgybrgmFjjITu9T6ZVSsL7VKWhca5GK/tqQzgien/5nGW2UXNRGT1TzWpSD8PouAnRrwdmXJXwykEXyAjB5hr+1rNOL+vNp3oNitia4nQZU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rAYSu1OP3vlbjIYKmMBlt3nXZfwJcRdC1cwtellDlg6fi/Lec4wQRtJYJexIrlUZqNy0i3MOCrHrRCE5xNmL1Egkt8v8jx4MIgh7/QJYm1U3WscaGh39YoWMtvshi0zGNI9sLpBThqslN6fcPZItwULwSnFtr1y6+R4u+ka/SOU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQNdSc/xothZ9Eq0cKNCvtOTANBgkqhkiG9w0BAQsFADA5MTcwNQYDVQQDHi4ATwBVAFMAUwBBAE0AQQBBAEIARABFADIAQgA2ADEAXABvAHUAcwBzAGEAbQBhMB4XDTI0MDIxNDIwMjYyM1oXDTI1MDIxNDAyMjYyM1owOTE3MDUGA1UEAx4uAE8AVQBTAFMAQQBNAEEAQQBCAEQARQAyAEIANgAxAFwAbwB1AHMAcwBhAG0AYTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEArAYSu1OP3vlbjIYKmMBlt3nXZfwJcRdC1cwtellDlg6fi/Lec4wQRtJYJexIrlUZqNy0i3MOCrHrRCE5xNmL1Egkt8v8jx4MIgh7/QJYm1U3WscaGh39YoWMtvshi0zGNI9sLpBThqslN6fcPZItwULwSnFtr1y6+R4u+ka/SOUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCMrIoGIgwAKI07p7gbRK0RknXyv+owd+pntdePj/nRyRQQwjbWSn1bNNS6l2VMD75Z5v/0V9a1bCxBACDiQ4k2KuJFV8EiPkd5dnvzdNqyUzdN3fQy9oCWFa/JqFtudJrK02zYJ1uU3vHfIwmvNghIaqlge495RwxsTlmkpFboKA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
